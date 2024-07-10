@@ -1,3 +1,6 @@
+@import "../../app.scss";
+
+
 .services{
     background: linear-gradient(180deg, #0c0c1d, #111132);
     height: 100%;
@@ -12,6 +15,12 @@
     align-items: center;
     gap: 20px;
 
+    @include mobile {
+        align-self: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
     p{
         font-weight: 200;
         font-size: 20px;
@@ -23,6 +32,10 @@
         width: 500px;
         border: none;
         border-top: 0.5px solid gray;
+
+        @include mobile {
+            width: 300px;
+        }
     }
 }
 .titleContainer{
@@ -32,22 +45,46 @@ flex-direction: column;
 align-items: center;
 
 
+@include mobile {
+    width: 100%;
+
+}
 
     .title{
 display: flex;
 align-items: center;
 gap: 50px;
 
+@include mobile {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+
         img{
             width: 300px;
             height: 100px;
             border-radius: 50px;
             object-fit: cover;
+
+            @include mobile {
+                width: 200px;
+                height: 50px;
+                margin-top: 20px;
+
+            }
+            
         }
 
         h1{
             font-size: 96px;
             font-weight: 100;
+
+            @include mobile {
+                font-size: 36PX;
+            }
+            
         }
 
         button{
@@ -58,6 +95,12 @@ gap: 50px;
             border: none;
             font-size: 20px;
             cursor: pointer;
+
+            @include mobile {
+                width: 150px;
+                height: 50px;
+                font-size: 16px;
+            }
         }
 
     }
@@ -67,6 +110,12 @@ gap: 50px;
     display: flex;
     max-width: 1366px;
     margin: auto;
+
+    @include mobile {
+        flex-direction: column;
+       width: 100px;
+    }
+    
 
 .box{
     padding: 50px;
