@@ -46,7 +46,7 @@ function Contact() {
   };
 
   return (
-    <motion.div ref={ref} className="container" variants={variants}>
+    <motion.div ref={ref} className="container" variants={variants} id="mail">
       <motion.div className="textContainer" variants={variants}>
         <motion.h1> Lets work together</motion.h1>
         <div className="item">

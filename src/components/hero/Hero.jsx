@@ -48,8 +48,9 @@ function Hero() {
             <motion.h2 variants={textVariants}>MAX ASCANIO</motion.h2>
             <motion.h1 variants={textVariants}>Web developer and UX/UI designer</motion.h1>
             <motion.div variants={textVariants}className="buttons">
-                <motion.button variants={textVariants}>See the Latest Works</motion.button>
-                <motion.button variants={textVariants}>Contact Me</motion.button>
+            
+                <motion.button variants={textVariants}><a href="#portfolio">See the Latest Works</a></motion.button>
+                <motion.button variants={textVariants}><a href="#mail">Contact Me</a></motion.button>
             </motion.div>
             <motion.img variants={textVariants} src="/scroll.png" alt="img" animate="scrollButton" />
         </motion.div>
