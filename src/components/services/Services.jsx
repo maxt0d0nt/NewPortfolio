@@ -55,21 +55,16 @@ const Services = () => {
       </motion.div>
       <motion.div className='listContainer'variants={variants}>
         <motion.div className="box" whileHover={{background:"lightgray", color: "black"}}>
-          <h2>Branding</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea ni
-            hil voluptates dignissimos hic laborum similique cumque maiores quisquam 
-            tempora, velit deserunt dolore cum culpa adipisci minima eum delectus at exercitationem.</p>
-        <button>Go</button>
+          <h2>Experience and technical knowledge</h2>
+          <p>Our experience in web development allows us to offer customized and efficient solutions,using the most suitable technologies for each project. This ensure high-quality resukts tailored to the needs of the client.</p>
         </motion.div>
         <motion.div className="box" whileHover={{background:"lightgray", color: "black"}}>
-          <h2>Branding</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea nihil voluptates dignissimos hic laborum similique cumque maiores quisquam tempora, velit deserunt dolore cum culpa adipisci minima eum delectus at exercitationem.</p>
-        <button>Go</button>
+          <h2>Focus on optimization and performance</h2>
+          <p>We specialize in creating websites that are not only visually appealing but also optimized for fast performance, excellent user experience, and better search engine ranking.</p>
         </motion.div>
       <motion.div className="box" whileHover={{background:"lightgray", color: "black"}}>
-      <h2>Branding</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea nihil voluptates dignissimos hic laborum similique cumque maiores quisquam tempora, velit deserunt dolore cum culpa adipisci minima eum delectus at exercitationem.</p>
-        <button>Go</button>
+      <h2>Personalized support and attention</h2>
+          <p>We provide close and personalized service, working closely with clients to understand their needs and goals. This ensures smooth communication and solutions that meet the client's expectations.</p>
         </motion.div>
       </motion.div>
     </motion.div>
